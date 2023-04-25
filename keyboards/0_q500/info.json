@@ -1,0 +1,43 @@
+{
+    "manufacturer": " ",
+    "keyboard_name": "q500 mouse  -fw:2023-04-25",
+    "maintainer": " ",
+    "bootloader": "rp2040",
+    "features": {
+        "command": false
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP18", "GP21", "GP25", "GP19", "GP27", "GP29", "GP17", "GP22", "GP23", "GP24", "GP15", "GP14", "GP20", "GP28", "GP26", "GP1"],
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "vid": "0x5043",
+        "pid": "0x4D6F",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"11", "x":4, "y":0, "matrix": [0, 0]},
+                {"label":"1", "x":5, "y":0, "h":2.5, "matrix": [0, 1]},
+                {"label":"2", "x":9, "y":0, "h":2.5, "matrix": [0, 2]},
+                {"label":"13", "x":10, "y":0, "h":1.5, "matrix": [0, 3]},
+                {"label":"6", "x": 0, "y": 1, "matrix": [0, 4]},
+                {"label":"5", "x":2, "y":1, "matrix": [0, 5]},
+                {"label":"12", "x":4, "y":1, "matrix": [0, 6]},
+                {"label":"14", "x":6, "y":1, "matrix": [0, 7]},
+                {"label":"3", "x":7, "y":1, "matrix": [0, 8]},
+                {"label":"15", "x":8, "y":1, "matrix": [0, 9]},
+                {"label":"7", "x": 0, "y":2, "h":1.5, "matrix": [0, 10]},
+                {"label":"4", "x":2, "y":2, "matrix": [0, 11]},
+                {"label":"10", "x":7, "y":2, "matrix": [0, 12]},
+                {"label":"8", "x":1, "y":3, "h":1, "matrix": [0, 13]},
+                {"label":"9", "x":2, "y":2.75, "h":1.25, "matrix": [0, 14]},
+                {"label":"16", "x":1, "y":3.75, "h":0.75, "matrix": [0, 15]}
+            ]
+        }
+    }
+}
