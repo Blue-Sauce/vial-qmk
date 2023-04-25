@@ -1,0 +1,172 @@
+{
+    "manufacturer": " ",
+    "name": "q500",
+    "vendorId": "0x5043",
+    "productId": "0x4D6F",
+    "customKeycodes": [
+	{"name": "2WU",
+	 "title": "Wheel Up x2",
+	 "shortName": "Q_2WU"
+	},
+	{"name": "2WD",
+	 "title": "Wheel Down x2",
+	 "shortName": "Q_2WD"
+	},
+	{"name": "3WU",
+	 "title": "Wheel Up x3",
+	 "shortName": "Q_3WU"
+	},
+	{"name": "3WD",
+	 "title": "Wheel Down x3",
+	 "shortName": "Q_3WD"
+	},
+	{"name": "4WU",
+	 "title": "Wheel Up x4",
+	 "shortName": "Q_4WU"
+	},
+	{"name": "4WD",
+	 "title": "Wheel Down x4",
+	 "shortName": "Q_4WD"
+	},
+    {"name": "LM1_ALT",
+	 "title": "LM(1,MOD_LALT)",
+	 "shortName": "Q_LM1_ALT"
+	},
+    {"name": "EE_CLR",
+	 "title": "reset EEPROM (wipe persistent setting storage)",
+	 "shortName": "Q_EE_CLR"
+	},
+    {"name": "L1_AR",
+	 "title": "layer 1 while held, when released, release alt if it was held",
+	 "shortName": "Q_L1_AR"
+	},
+	    {"name": "WH_AT",
+	 "title": "scroll wheel tab + register alt (hold)",
+	 "shortName": "Q_WH_AT"
+	},
+    {"name": "Q_WH_AST",
+	 "title": "scroll wheel r.shift tab + register alt (hold)",
+	 "shortName": "Q_WH_AST"
+	}
+],
+    "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 1,
+    "cols": 16
+  },
+  "layouts": {
+    "keymap": [
+  {
+    "backcolor": "#e5e5e5",
+    "name": "kle: Q500 direct (column row) for Vial",
+    "radii": "20px"
+  },
+  [
+    {
+      "x": 5,
+      "w": 1.5,
+      "h": 3.75
+    },
+    "0,1",
+    {
+      "x": 2.5,
+      "w": 1.5,
+      "h": 3.75
+    },
+    "0,2"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 4.25,
+      "w": 0.75
+    },
+    "0,0",
+    {
+      "x": 1.75
+    },
+    "0,1\n\n\n\n\n\n\n\n\ne",
+    "0,0\n\n\n\n\n\n\n\n\ne",
+    {
+      "x": 1.75,
+      "w": 0.75,
+      "h": 2.5
+    },
+    "0,3"
+  ],
+  [
+    {
+      "x": 4.25,
+      "w": 0.75,
+      "h": 1.75
+    },
+    "0,6",
+    {
+      "x": 1.5,
+      "w": 0.75,
+      "h": 1.25
+    },
+    "0,7",
+    {
+      "h": 1.25
+    },
+    "0,8",
+    {
+      "w": 0.75,
+      "h": 1.25
+    },
+    "0,9"
+  ],
+  [
+    {
+      "y": -0.25,
+      "h": 1.25
+    },
+    "0,4",
+    {
+      "x": 1
+    },
+    "0,5"
+  ],
+  [
+    {
+      "x": 2
+    },
+    "0,11"
+  ],
+  [
+    {
+      "y": -0.75,
+      "h": 2.25
+    },
+    "0,10",
+    {
+      "x": 6.37,
+      "w": 0.75,
+      "h": 1.25
+    },
+    "0,12"
+  ],
+  [
+    {
+      "y": -0.25,
+      "x": 1,
+      "h": 1.25
+    },
+    "0,13",
+    {
+      "h": 1.5
+    },
+    "0,14"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": 1,
+      "h": 0.75
+    },
+    "0,15"
+  ]
+]
+  }
+}
